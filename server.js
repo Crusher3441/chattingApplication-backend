@@ -5,7 +5,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ["https://phenomenal-zabaione-e155d4.netlify.app","http://localhost:3002"],
+    origin: ["https://phenomenal-zabaione-e155d4.netlify.app","http://localhost:3002","https://chatting-application-frontend-habq.vercel.app"],
     methods: ["GET", "POST"]
   }
 });
